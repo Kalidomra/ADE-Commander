@@ -51,7 +51,7 @@ ADE Commander (ADEC) is the companion boot.dsk for the AdamNet Drive Emulator (A
   Delete the currently highlighted image or directory. 
  
 ### Control-N : New Image or Directory
-  Creates a new disk image. From the window you can configure the file type, block size and name. 
+  Creates a new disk image or directory. From the window you can configure the file type, block size and name. 
   The block size is limited to 65,535 blocks. Any image larger than 64,205 blocks will have issues if the factory format command is not disable in the ADE. Addressing block 64, 206 (FACE hex) will initiate a format.
 
 ### Control-R : Rename Image or Directory
