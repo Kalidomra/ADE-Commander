@@ -22,10 +22,10 @@ ADE Commander (ADEC) is the companion boot.dsk for the AdamNet Drive Emulator (A
 ### I-IV : Mount Image to Drive
   Mount the currently highlighted image to the drive. The drive must be enabled to mount to it.
   
-    I = Drive 1 (Device 4)
-   II = Drive 2 (Device 5)
-  III = Drive 3 (Device 6)
-   IV = Drive 4 (Device 7)
+      I = Drive 1 (Device 4)
+     II = Drive 2 (Device 5)
+    III = Drive 3 (Device 6)
+     IV = Drive 4 (Device 7)
 
 ### V : Drive Status
   The current drive status will be displayed. from this window you can unmount the images any of the drives.
@@ -59,6 +59,7 @@ ADE Commander (ADEC) is the companion boot.dsk for the AdamNet Drive Emulator (A
   Renames the currently highlighted image or directory. This will automatically assign the file extension. In the case of a cartridge file (.col, .bin or .rom) ADEC will assign the extension .rom.
   
 ### Control-X/C/V : Cut/Copy/Paste
+  
   Control-X - Sets the current highlighted image as the image to be moved.
   Control-C - Sets the current highlighted image as the image to be copied.
   Control-X - Copies or Moves the image to the current directory and reloads the image file list.
