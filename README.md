@@ -2,9 +2,9 @@
 
 ADE Commander (ADEC) is the companion boot.dsk for the AdamNet Drive Emulator (ADE). When configured to automatically boot, ADEC provides the ability to mount and run images on your ADE. It also provides a number of additional functions to help manage your images on the SD card. Although ADEC will work with current versions of the ADE code, the advanced functions will not be available. To use the advanced functions you will need to upgrade to ADE version 0.90 or higher. Just as the ADE itself, ADEC is limited to 300 files and directories per directory. 
 
-# Commands:
+## Commands:
 
-Escape/WP: Help
+### Escape/WP: Help
   Displays the help screen. Also contains the current versions of ADE and ADE Commander.
 
 Controllers: Move through the current directory
