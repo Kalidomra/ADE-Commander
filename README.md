@@ -59,10 +59,10 @@ ADE Commander (ADEC) is the companion boot.dsk for the AdamNet Drive Emulator (A
   Renames the currently highlighted image or directory. This will automatically assign the file extension. In the case of a cartridge file (.col, .bin or .rom) ADEC will assign the extension .rom.
   
 ### Control-X/C/V : Cut/Copy/Paste
-  
-  Control-X - Sets the current highlighted image as the image to be moved.
-  Control-C - Sets the current highlighted image as the image to be copied.
-  Control-X - Copies or Moves the image to the current directory and reloads the image file list.
+
+    Control-X - Sets the current highlighted image as the image to be moved.
+    Control-C - Sets the current highlighted image as the image to be copied.
+    Control-X - Copies or Moves the image to the current directory and reloads the image file list.
   
 
 
