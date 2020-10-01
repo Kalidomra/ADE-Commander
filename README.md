@@ -1,6 +1,6 @@
 # ADE Commander
 
-ADE Commander (ADEC) is the companion boot.dsk for the AdamNet Drive Emulator (ADE). When configured to automatically boot, ADEC provides the ability to mount and run images on your ADE. It also provides a number of additional functions to help manage your images on the SD card. Although ADEC will work with current versions of the ADE code, the advanced functions will not be available. To use the advanced functions you will need to upgrade to ADE version 0.90 or higher. Just as the ADE itself, ADEC is limited to 300 files and directories per directory. 
+ADE Commander (ADEC) is the companion boot.dsk for the AdamNet Drive Emulator (ADE) https://github.com/Kalidomra/AdamNet-Drive-Emulator. It is written in 100% Z80 assembler. When configured to automatically boot, ADEC provides the ability to mount and run images on your ADE. It also provides a number of additional functions to help manage your images on the SD card. Although ADEC will work with current versions of the ADE code, the advanced functions will not be available. To use the advanced functions you will need to upgrade to ADE version 0.90 or higher. Just as the ADE itself, ADEC is limited to 300 files and directories per directory. 
 
 ## Commands:
 
@@ -42,8 +42,8 @@ ADE Commander (ADEC) is the companion boot.dsk for the AdamNet Drive Emulator (A
   Save the existing color setup to the boot.dsk. The boot.dsk must mounted in the boot drive to save.
 
 ### Control-A : ADE Settings
-  Displays the current ADE drive and debug setting. From here you can change the enabled drives and debug. Press VI to save the settings to the ADE. Be careful in disabling drives as it can render the ADE unusable.
- 
+  Displays the current ADE drive and debug setting. From here you can change the enabled drives and debug. Press VI to save the settings to the ADE. Be careful in disabling drives as it can render the ADE unusable and will require drive reconfiguration from the ADE itself.
+
 ### Control-F : Format Image
   Format the currently highlighted image. It will only erase the image. This is meant to replace the factory format command if it is disabled in the ADE configuration. In order to format for EOS or CP/M use you will need to use an alternate program. 
 
