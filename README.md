@@ -21,6 +21,7 @@ ADE Commander (ADEC) is the companion boot.dsk for the AdamNet Drive Emulator (A
 
 ### I-IV : Mount Image to Drive
   Mount the currently highlighted image to the drive. The drive must be enabled to mount to it.
+  
     I = Drive 1 (Device 4)
    II = Drive 2 (Device 5)
   III = Drive 3 (Device 6)
