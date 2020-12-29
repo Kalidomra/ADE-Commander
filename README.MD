@@ -52,7 +52,7 @@ ADE Commander (ADEC) is the companion boot.dsk for the AdamNet Drive Emulator (A
 ### Control-F : Format Image
   Format the currently highlighted image. It will only erase the image. This is meant to replace the factory format command if it is disabled in the ADE configuration. In order to format for EOS or CP/M use you will need to use an alternate program. 
 
-### Control-D : Delete Image or Directory
+### Control-D or Delete : Delete Image or Directory
   Delete the currently highlighted image or directory. 
  
 ### Control-N : New Image or Directory

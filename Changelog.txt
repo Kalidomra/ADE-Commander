@@ -1,2 +1,6 @@
+Version 0.11
+- Added a memory wipe to the Adam reboot sequence. Some carts would hang when something was still in memory.
+- Fixed the issue of controllers not working when the keyboard was not plugged in. 
+- The 'delete' key will now act the same as control-d
 Version 0.10
 - Initial release.
